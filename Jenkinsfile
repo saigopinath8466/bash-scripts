@@ -28,3 +28,5 @@ pipeline {
             sh 'echo "this is my variable: $myvar"'
             }
         }
+    }
+}
