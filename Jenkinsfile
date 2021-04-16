@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('checkout'){
             steps{
-            git branch: 'main', credentialsId: 'gopigithubid', url: 'https://github.com/saigopinath8466/bash-scripts.git'
+            checkout scm
             }
         }
         stage('build'){
