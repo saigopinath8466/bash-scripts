@@ -17,3 +17,4 @@ for i in "${alphas[@]}"; do
 		let j+=1
 	fi
 done
+//hi
